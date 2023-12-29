@@ -2,9 +2,9 @@
 # Copyright (C) 2023 LineageOS
 #
 # SPDX-License-Identifier: Apache-2.0
-#
+# calling from AndroidProduct.mk
 
-#TODO: add this file. Inherit from those products. Most specific fist.
+#Inherit from those products. Most specific fist.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
